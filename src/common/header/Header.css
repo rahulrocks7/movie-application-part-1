@@ -1,0 +1,24 @@
+.header {
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 35px;
+  background-color: #ff7f7f;
+  animation: rotate 8s infinite linear;
+}
+.bookNowButton{
+  margin-right: 10px !important;
+}
+@keyframes rotate {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(359deg);
+  }
+}
